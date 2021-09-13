@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>View data</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: url("record.jpg");
+             background-repeat: no-repeat;
+              background-attachment: fixed;
+                background-size: 100% 100%;
+    
+        }
+        #for{
+           position: absolute;
+           top: 150px;
+           left: 150px;
+            
+        }
+        #btn{
+            position: absolute;
+            top: 200px;
+            left: 200px;
+            padding: 5px 10px;
+        }
+        #btn{
+            position: absolute;
+            top: 200px;
+            left: 300px;
+            padding: 5px 10px;
+        }
+        #nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky !important;
+    border-radius: 1px;
+    box-shadow: 2px;
+
+}
+#nav_item{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: end;
+    text-decoration: none;
+    border-bottom: none;
+    </style>
+</head>
+<body>
+    <ul id="nav">
+        <li id="nav_item">Hospital Management System</li>
+    </ul>
+    <form id="for">
+        <label id="lnumber">Enter Phone Number</label>
+        <input type="number" id="number" name="number">
+    </form>
+    <button id="btn">Search</button>
+    <button id="btn2"><a href="index.html">Home</a></button>
+
+</body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky !important;
+    border-radius: 1px;
+    box-shadow: 2px;
+
+}
+#nav_item{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: end;
+    text-decoration: none;
+    border-bottom: none;
+}
+body{
+    background-image: url("record.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+#for{
+    position: absolute;
+    left: 35%;
+    top: 40%;
+}
+input{
+    position: absolute;
+    left: 150px;
+    top: 200px;
+    padding-right: 50px;
+}
+#name{
+    position: absolute;
+    top: -80%;
+}
+#age{
+    position: absolute;
+    top: -50%;
+}
+#dob{
+    position: absolute;
+    top: -30px;
+}
+#phno{
+    position: absolute;
+    top: 20px;
+}
+#place{
+    position: absolute;
+    top: 50%;
+}
+#disease{
+    position: absolute;
+    top: 70%;
+}
+#Reason{
+    position: absolute;
+    top: 100%;
+}
+
+#lname{
+    position: absolute;
+    top: -115px;
+    
+}
+#lage{
+    position: absolute;
+    top: -75px;
+}
+#ldbo{
+    position: absolute;
+    top: -30px;
+    left: -50px;
+}
+#lphno{
+    position: absolute;
+    top: 20px;
+}
+#ldisease{
+    position: absolute;
+    top: 105px;
+}
+#ltablet{
+    position: absolute;
+    top: 200px;
+}
+#lreason{
+    position: absolute;
+    top: 150px;
+}
+#lplace{
+    
+}
+#radio{
+    position: absolute;
+    top: 250px;
+}
+#radio1{
+    position: absolute;
+    top: 255px;
+}
+#radio2{
+    position: absolute;
+    top: 255px;
+    left: 300px;
+}
+#male{
+    position: absolute;
+    top: 250px;
+    left: 180px;
+}
+#Female{
+    position: absolute;
+    top: 250px;
+    left: 330px;
+}
+#btn1{
+    position: absolute;
+    top: 650px;
+    left: 500px;
+    padding: 5px 10px;
+}
+#btn2{
+    position: absolute;
+    top: 650px;
+    left: 800px;
+    padding: 5px 10px;
+}
+f

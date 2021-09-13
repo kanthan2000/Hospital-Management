@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+           
+            
+            background-repeat: no-repeat;
+            
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-image: url("loginpage.PNG");
+        
+        
+            
+        }
+        #for{
+            position: absolute;
+            top: 48%;
+            left: 45%;
+
+        }
+        #lid{
+        
+            
+        
+    
+
+
+        }
+        #id{
+            position: absolute;
+            left: 120%;
+            padding-left: 50px;
+            padding-top: 3px;
+        
+        }
+        #submit{
+            position: absolute;
+            top: 300%;
+            left: 150%;
+            padding: 5px 5px;
+            padding-left: 8px;
+
+        }
+        #lpass{
+            position: absolute;
+            top: 150%;
+        }
+        #pass{
+            position: absolute;
+            top: 150%;
+            left: 120%;
+            padding-left: 50px;
+            padding-top: 3px;
+            
+        }
+        
+    </style>
+</head>
+<body>
+    
+ <form id="for" method="POST">
+     
+     <label id="lid">Username</label>
+     <input type="text" id="id" name="username"><br>
+     
+     <div class="num2">
+     <label id="lpass">Password</label>
+     <input type="password" id="pass" name="password"><br>
+     
+     <input type="submit"id="submit" name="submit" onclick="check(this.form)"> 
+     </form>
+     
+
+     <script language="javascript">
+        function check(form)/*function to check userid & password*/
+        {
+         /*the following code checkes whether the entered userid and password are matching*/
+         if(form.username.value == "hms" && form.password.value == "HMS")
+          {
+              
+              
+            window.open('index.html')
+            alert("login sucessfully")
+          }
+         else
+         {
+           alert("Error Password or Username")/*displays error message*/
+          }
+        }
+        </script>
+</body>
+</html>

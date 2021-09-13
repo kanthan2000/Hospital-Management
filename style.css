@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.navbar{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: sticky !important;
+    border-radius: 3px;
+}
+.nav_item{
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-align: end;
+    text-decoration: none;
+    border-bottom: none;
+    position: sticky !important;
+}
+.nav_item:hover{
+    background-color: #111;
+    
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+}
+#home{
+    width:auto;
+    height: auto;
+    background-image: url("home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#home p{
+    position: absolute;
+    color: rgb(251, 253, 251);
+    font-size: 100%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    top: 10%;
+    left: 3%;
+    padding:100px;
+    animation-name: text;
+    animation-duration: 30S;
+}
+@keyframes text{
+    0%  {color: tomato;}
+    25%{color: teal;}
+    50%{color: yellow;}
+    75%{color: violet;}
+    100%{color: whitesmoke;}
+}
+
+.btn1{
+    position: absolute;
+    left: 10%;
+    bottom:50%;
+    padding: 15px 15px;
+    background-color: thistle;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+
+    
+}
+.btn2{
+    position: absolute;
+    left: 20%;
+    bottom: 50%;
+    padding: 15px 15px;
+    background-color: thistle;
+    border-radius: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    
+
+    
+}
+.btn3{
+    position: absolute;
+    left: 30%;
+    bottom: 50%;
+    padding: 15px 15px;
+    background-color: thistle;
+    border-radius: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    
+}
+.btn:hover{
+    background-color:cadetblue ;
+    
+}
+#data{
+    width: auto;
+    height: 50vh;
+    background-color: rgb(230, 230, 217);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#for{
+    position: absolute;
+    left: 2%;
+    top: 130%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+    padding-right: 20%;
+
+    
+}
+#lemail{
+    position: absolute;
+    top:10mm;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#email{
+    position: absolute;
+    padding-right: 200%;
+    padding-bottom: 2%;
+    top: 20mm;
+}
+#lpassword{
+    position: absolute;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+#password{
+    position: absolute;
+    padding-right: 200%;
+    padding-bottom: 2%;
+    bottom: 12mm;
+
+}
+#button{
+    position: absolute;
+    padding: 8px 8px;
+    bottom: 1%;
+    border-radius: 2px;
+}
+footer{
+    width: auto;
+    height: 50vh;
+    background-color: black;
+}
+.footer{
+    color: whitesmoke;
+    position: absolute;
+    top:250%;
+    left: 45%;
+}
+.me{
+    color: whitesmoke;
+    position: absolute;
+    top: 230%;
+    left: 60%;
+}
+.phno{
+    position: absolute;
+    padding: 90px 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.gmail{
+    position: absolute;
+    padding: 40px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.news{
+    position: absolute;
+    color: whitesmoke;
+    left: 3%;
+    top: 230%;
+}
